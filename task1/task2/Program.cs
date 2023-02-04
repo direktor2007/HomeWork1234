@@ -2,16 +2,16 @@
 // три числа и выдает максимальное из этих чисел.
 
 Console.WriteLine("Введите 3 числа:");
-int num1 = Convert.ToInt32(Console.ReadLine());
-int num2 = Convert.ToInt32(Console.ReadLine());
-int num3 = Convert.ToInt32(Console.ReadLine());
-int max = num1;
-if (num2 > max)
+int number1 = Convert.ToInt32(Console.ReadLine());
+int number2 = Convert.ToInt32(Console.ReadLine());
+int number3 = Convert.ToInt32(Console.ReadLine());
+int max = number1;
+if (number2 > max)
 {
-    max = num2;
+    max = number2;
 }
-if (num3 > max)
+if (number3 > max)
 {
-    max = num3;
+    max = number3;
 }
 Console.WriteLine("Максимальное число " + max);
